@@ -89,6 +89,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 h3 {
@@ -125,4 +126,28 @@ h3 {
   color: grey;
   width: 150px;
   text-align: center;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px 250px 100px 250px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+  font-family: "Roboto";
+  align-self: center;
+}
+
+.author-name {
+  font-size: 18px;
+  font-weight: 900;
+  color: #1f2937;
+  font-family: "Roboto";
+  align-self: flex-end;
 }
