@@ -73,8 +73,56 @@ button {
 
 .first-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: #1f2937;
   padding: 100px;
+}
+
+.main-image {
+  height: 200px;
+  width: 400px;
+  background-color: grey;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  font-family: "Roboto";
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.image-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.sub-image {
+  border: solid #3882f6;
+  border-radius: 10px;
+  border-width: 5px;
+  height: 140px;
+  width: 140px;
+}
+
+.text {
+  font-size: 18px;
+  color: grey;
+  width: 150px;
+  text-align: center;
 }
