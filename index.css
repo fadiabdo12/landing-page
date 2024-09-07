@@ -54,10 +54,11 @@ a {
   font-family: "Roboto";
 }
 
-button {
+.introduction button {
   background-color: #3882f6;
   border-radius: 10px;
   border: none;
+  font-family: "Roboto";
   color: #f9faf8;
   font-size: 18px;
   width: 120px;
@@ -124,8 +125,9 @@ h3 {
 .text {
   font-size: 18px;
   color: grey;
-  width: 150px;
+  width: 170px;
   text-align: center;
+  font-family: "Roboto";
 }
 
 .third-container {
@@ -150,6 +152,52 @@ h3 {
   color: #1f2937;
   font-family: "Roboto";
   align-self: flex-end;
+}
+
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.box {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 900px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.box-info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  font-family: "Roboto";
+  border-color: #f9faf8;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  width: 100px;
+  height: 30px;
+}
+
+.box-title {
+  color: #f9faf8;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.box-text {
+  color: #e5e7eb;
+  font-family: "Roboto";
 }
 
 footer {
